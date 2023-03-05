@@ -5,6 +5,7 @@ import Home from './components/home';
 import Header from './components/header';
 import Book from './components/book';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { FlashcardList } from './components/flashcardlist';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/book" element={<Book />} />
+        <Route path="/vocab" element={<FlashcardList />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
