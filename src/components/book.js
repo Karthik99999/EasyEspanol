@@ -1,8 +1,16 @@
+import "./book.css"
+import{useParams} from "react-router-dom";
+
 function Book() {
+
+    const params = useParams();
+
     return (
-      <div>
-        <p>I want to get naked and sleep with Myshro</p>
+      <div className="text-center">
+        <iframe id = "myPDF" src = {'/pdfs/' + params.id + '.pdf'}></iframe>
+
       </div>
+      
     );
   }
   
