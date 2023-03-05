@@ -19,6 +19,7 @@ root.render(
         <Route path="/vocab" element={<FlashcardList />} />
         <Route path="/books" element={<Book />} />
         <Route path="/books/:id" element={<Book />} />
+        <Route path="/books" element={<Book />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

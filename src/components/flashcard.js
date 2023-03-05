@@ -22,7 +22,7 @@ export default function Flashcard({ flashcard }) {
 
   return (
     <div
-      className={`card ${flip ? 'flip' : ''}`}
+      className={`card ${flip ? 'flip' : ''} fcard`}
       style={{ height: height }}
       onClick={() => setFlip(!flip)}
     >
@@ -30,6 +30,7 @@ export default function Flashcard({ flashcard }) {
         {flashcard.spanish}
       </div>
       <div className="back" ref={backEl}>{flashcard.english}</div>
+      
     </div>
   )
 }

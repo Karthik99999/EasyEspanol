@@ -22,7 +22,10 @@ export function FlashcardList(props) {
         </div>
         {
           createFlashcards(5)
+
         }
+        <button className="btn btn-primary" style={{marginLeft: "100px"}} onClick={() => window.location.reload()}>Shuffle</button>
       </div>
+      
     );
   }
