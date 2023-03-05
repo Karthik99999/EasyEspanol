@@ -5,6 +5,7 @@ import Home from './components/home';
 import Header from './components/header';
 import Book from './components/book';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import YouTube from './components/youtube';
 import { FlashcardList } from './components/flashcardlist';
 import Grammar from './components/grammar/nouns';
 import Nouns from './components/grammar/nouns';
@@ -21,7 +22,9 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/youtube" element={<YouTube />} />
         <Route path="/vocab" element={<FlashcardList />} />
+        <Route path="/books" element={<Book />} />
         <Route path="/books/:id" element={<Book />} />
         <Route path="/nouns" element={<Nouns/>} />
         <Route path="/articles" element={<Articles/>} />
@@ -29,6 +32,7 @@ root.render(
         <Route path="/food" element={<FoodList/>} />
         <Route path="/conversation" element={<ConversationList/>} />
         <Route path="/adjectives" element={<Adjectives/>} />
+        <Route path="/books" element={<Book />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
