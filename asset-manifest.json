@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.bba49622.css",
-    "main.js": "/static/js/main.e6689582.js",
-    "index.html": "/index.html",
-    "main.bba49622.css.map": "/static/css/main.bba49622.css.map",
-    "main.e6689582.js.map": "/static/js/main.e6689582.js.map"
+    "main.css": "/Karthik99999/EasyEspanol/static/css/main.bba49622.css",
+    "main.js": "/Karthik99999/EasyEspanol/static/js/main.e6689582.js",
+    "index.html": "/Karthik99999/EasyEspanol/index.html",
+    "main.bba49622.css.map": "/Karthik99999/EasyEspanol/static/css/main.bba49622.css.map",
+    "main.e6689582.js.map": "/Karthik99999/EasyEspanol/static/js/main.e6689582.js.map"
   },
   "entrypoints": [
     "static/css/main.bba49622.css",
