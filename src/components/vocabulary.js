@@ -1,5 +1,3 @@
-// THIS ISN'T A COMPONENT BUT SORRY
-
 export default [
     {
         "english": "as",
