@@ -6,9 +6,8 @@ function Home() {
       <br />
       <div className="jumbotron" style={{background: "rgb(211, 211, 211, 0.3)"}}>
         <h1 className="display-4">Welcome to Easy Español!</h1>
-        <p className="lead">A small </p>
+        <p className="lead">A small site to help you learn Spanish!</p>
         <hr className="my-4" />
-        <p>help</p>
         <p className="lead">
           <Link to="/books" className="btn btn-primary">Books</Link>
           <> </>
