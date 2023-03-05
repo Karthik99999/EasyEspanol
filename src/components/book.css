@@ -1,0 +1,17 @@
+#myPDF {
+    width: 70%;
+    height: 975px;
+    margin: 0 auto;
+    background-color: #777;
+}
+
+
+
+.card {
+    margin: 5px;
+}
+
+.card:hover {
+    transition: 100ms;
+    font-size: 1.01rem;
+}
