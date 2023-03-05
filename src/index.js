@@ -16,6 +16,7 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="/vocab" element={<FlashcardList />} />
         <Route path="/books/:id" element={<Book />} />
+        <Route path="/books" element={<Book />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
