@@ -4,12 +4,12 @@ function Home() {
   return (
     <div className="text-center">
       <br />
-      <div class="jumbotron" style={{background: "rgb(211, 211, 211, 0.3)"}}>
-        <h1 class="display-4">Welcome to Easy Español!</h1>
-        <p class="lead">A small </p>
-        <hr class="my-4" />
+      <div className="jumbotron" style={{background: "rgb(211, 211, 211, 0.3)"}}>
+        <h1 className="display-4">Welcome to Easy Español!</h1>
+        <p className="lead">A small </p>
+        <hr className="my-4" />
         <p>help</p>
-        <p class="lead">
+        <p className="lead">
           <Link to="/books" className="btn btn-primary">Books</Link>
           <> </>
           <Link to="/vocab" className="btn btn-primary">Vocab Flashcards</Link>

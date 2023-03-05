@@ -7,7 +7,6 @@ import Book from './components/book';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import YouTube from './components/youtube';
 import { FlashcardList } from './components/flashcardlist';
-import Grammar from './components/grammar/nouns';
 import Nouns from './components/grammar/nouns';
 import Articles from './components/grammar/articles';
 import { TravelList } from './components/GroupVocab/travelList';
@@ -20,7 +19,7 @@ root.render(
   <React.StrictMode>
     <Header />
     <div className="container">
-      <BrowserRouter>
+      <BrowserRouter basename='/EasyEspanol'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/youtube" element={<YouTube />} />
