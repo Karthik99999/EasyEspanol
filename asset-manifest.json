@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/EasyEspanol/static/css/main.bba49622.css",
-    "main.js": "/EasyEspanol/static/js/main.e6689582.js",
+    "main.js": "/EasyEspanol/static/js/main.591735ff.js",
     "index.html": "/EasyEspanol/index.html",
     "main.bba49622.css.map": "/EasyEspanol/static/css/main.bba49622.css.map",
-    "main.e6689582.js.map": "/EasyEspanol/static/js/main.e6689582.js.map"
+    "main.591735ff.js.map": "/EasyEspanol/static/js/main.591735ff.js.map"
   },
   "entrypoints": [
     "static/css/main.bba49622.css",
-    "static/js/main.e6689582.js"
+    "static/js/main.591735ff.js"
   ]
 }
