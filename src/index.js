@@ -19,21 +19,22 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/youtube" element={<YouTube />} />
-        <Route path="/vocab" element={<FlashcardList />} />
-        <Route path="/books" element={<Book />} />
-        <Route path="/books/:id" element={<Book />} />
-        <Route path="/nouns" element={<Nouns/>} />
-        <Route path="/articles" element={<Articles/>} />
-        <Route path="/travel" element={<TravelList/>} />
-        <Route path="/food" element={<FoodList/>} />
-        <Route path="/conversation" element={<ConversationList/>} />
-        <Route path="/adjectives" element={<Adjectives/>} />
-        <Route path="/books" element={<Book />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="container">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/youtube" element={<YouTube />} />
+          <Route path="/vocab" element={<FlashcardList />} />
+          <Route path="/books" element={<Book />} />
+          <Route path="/books/:id" element={<Book />} />
+          <Route path="/nouns" element={<Nouns/>} />
+          <Route path="/articles" element={<Articles/>} />
+          <Route path="/travel" element={<TravelList/>} />
+          <Route path="/food" element={<FoodList/>} />
+          <Route path="/conversation" element={<ConversationList/>} />
+          <Route path="/adjectives" element={<Adjectives/>} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   </React.StrictMode>
 );
